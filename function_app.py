@@ -1,5 +1,7 @@
 import logging
 import azure.functions as func
+from azure.ai.textanalytics import TextAnalyticsClient
+from azure.core.credentials import AzureKeyCredential
 
 app = func.FunctionApp()
 
